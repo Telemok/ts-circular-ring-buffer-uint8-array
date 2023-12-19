@@ -1,0 +1,6 @@
+tsc // compile to ready, make .js .map .d.ts
+npm install --save-dev jest
+npm install --save-dev ts-jest
+npm test // run test with jest
+
+npm publish --access public
