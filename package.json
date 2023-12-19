@@ -1,6 +1,6 @@
 {
   "name": "@telemok/ring-buffer-uint8array",
-  "version": "0.0.23121901",
+  "version": "0.0.23121902",
   "description": "Typescript circular ring buffer uint8array with push shift read write find bytes",
   "main": "src/index.ts",
   "scripts": {
@@ -30,7 +30,7 @@
   },
   "files": [
     "src/",
-    "test/",
+    "dist/",
     "README.md",
     "LICENSE.txt",
     "package.json",

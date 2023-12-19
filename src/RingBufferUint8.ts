@@ -2,7 +2,7 @@
  * @file    RingBufferUint8.ts
  * @brief   Typescript circular ring buffer uint8array with push shift read write find operations
  * @author  Dmitrii Arshinnikov <www.telemok.com@gmail.com> https://github.com/Telemok npmjs.com/search?q=%40telemok
- * @version 0.0.23121901
+ * @version 0.0.231220
  * @date 2023-12-20
  *
  @verbatim
