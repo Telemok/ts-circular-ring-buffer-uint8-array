@@ -1,1 +1,1 @@
-export {RingBufferUint8Array} from "./RingBufferUint8Array"
+export {RingBufferUint8} from "./RingBufferUint8"

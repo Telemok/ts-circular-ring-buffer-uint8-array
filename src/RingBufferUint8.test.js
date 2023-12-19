@@ -1,7 +1,7 @@
-const { RingBufferUint8Array } = require('../src/RingBufferUint8Array');
+const { RingBufferUint8 } = require('../src/RingBufferUint8');
 
 test('List should add and retrieve items', () => {
-    const ringBufferUint8Array = new RingBufferUint8Array(50);
+    const ringBufferUint8Array = new RingBufferUint8(50);
     ringBufferUint8Array.pushByte(1);
     ringBufferUint8Array.pushByte(2);
     expect(ringBufferUint8Array.shiftByte()).toBe(1);
@@ -10,7 +10,7 @@ test('List should add and retrieve items', () => {
 
 
 test('qwe', () => {
-    const ringBufferUint8Array = new RingBufferUint8Array(50);
+    const ringBufferUint8Array = new RingBufferUint8(50);
     ringBufferUint8Array.flagOverwrite = true;
     expect(ringBufferUint8Array.flagOverwrite).toBe(true);
 });
@@ -19,7 +19,7 @@ test('qwe', () => {
 
 
 test('qwqe', () => {
-    const ringBufferUint8Array = new RingBufferUint8Array(50);
+    const ringBufferUint8Array = new RingBufferUint8(50);
     ringBufferUint8Array.flagOverwrite = true;
 
 
@@ -41,17 +41,17 @@ test('qwqe', () => {
 
 
 
-// import {RingBufferUint8Array} from "../RingBufferUint8Array"
+// import {RingBufferUint8} from "../RingBufferUint8"
 //
 //
-// let rr = new RingBufferUint8Array(-20);
+// let rr = new RingBufferUint8(-20);
 //
 //
 //
 // const textEncoder = new TextEncoder();
 // const textDecoder = new TextDecoder();
 //
-// let rb = new RingBufferUint8Array(10);
+// let rb = new RingBufferUint8(10);
 //
 // let tmp;
 // // rb.pushByte(1);console.log(rb.toString());
