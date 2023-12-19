@@ -4,3 +4,6 @@ npm install --save-dev ts-jest
 npm test // run test with jest
 
 npm publish --access public
+
+npm cache clean -f
+npm i git+https://github.com/Telemok/ts-circular-ring-buffer-uint8-array.git
