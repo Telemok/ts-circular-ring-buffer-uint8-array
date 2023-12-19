@@ -6,4 +6,10 @@ npm test // run test with jest
 npm publish --access public
 
 npm cache clean -f
+
+
+
+//To install from GIT directly:
 npm i git+https://github.com/Telemok/ts-circular-ring-buffer-uint8-array.git
+package.json
+"git": "https://github.com/Telemok/ts-circular-ring-buffer-uint8-array.git" ->
